@@ -1,0 +1,11 @@
+sudo mysql -u root -p:: TO connect to mysql server
+sudo systemctl status mysql :: to start server
+
+
+
+
+You have an error in your SQL syntax; 
+check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc varchar(255),  is_done boolean not null,  target_date timestamp,  user varc' at line 1
+
+
+create table todo (id integer not null, desc varchar(255), is_done boolean not null, target_date timestamp, user varchar(255), primary key (id));
